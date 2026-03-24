@@ -7,17 +7,20 @@ class Webclaw < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/0xMassi/webclaw/releases/download/v#{version}/webclaw-v#{version}-aarch64-apple-darwin.tar.gz"
-      # sha256 will be updated by CI on each release
+      sha256 "739271d332fbc168eaf2ff35ae517f68f28d4a6f556ba34a9dfcfd2ee4b2b603"
     else
       url "https://github.com/0xMassi/webclaw/releases/download/v#{version}/webclaw-v#{version}-x86_64-apple-darwin.tar.gz"
+      sha256 "d7d16fb21c0981e5a727fe7b1de4158890f41aa2476dadcbbcdd451b28e02e95"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/0xMassi/webclaw/releases/download/v#{version}/webclaw-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9228ef6a6288e77127f6ebe005c9c0c12a239582e153ec72057ed2eba409f59d"
     else
       url "https://github.com/0xMassi/webclaw/releases/download/v#{version}/webclaw-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "710c8718582c26bc87bdd97890acbd6090f95ec3bf0df74296aa9d9155360e7f"
     end
   end
 
