@@ -2,12 +2,12 @@ class Webclaw < Formula
   desc "The fastest web scraper for AI agents. 67% fewer tokens. Sub-ms extraction."
   homepage "https://webclaw.io"
   license "MIT"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xMassi/webclaw/releases/download/v0.2.1/webclaw-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c4c3b5502a5a65b772fa1bd24e9dc32be6e490893d1dc645e9da5cd71627a51b"
+      url "https://github.com/0xMassi/webclaw/releases/download/v0.2.2/webclaw-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "b2fa7c7f63c8eb36ae2cf75693dcd30f187ba56ded9ec1472c1cf7cd923aa60f"
     else
       url "https://github.com/0xMassi/webclaw/releases/download/v#{version}/webclaw-v#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "d7d16fb21c0981e5a727fe7b1de4158890f41aa2476dadcbbcdd451b28e02e95"
