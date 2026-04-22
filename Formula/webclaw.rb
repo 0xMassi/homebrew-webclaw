@@ -2,25 +2,25 @@ class Webclaw < Formula
   desc "The fastest web scraper for AI agents. 67% fewer tokens. Sub-ms extraction."
   homepage "https://webclaw.io"
   license "AGPL-3.0"
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.1/webclaw-v0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ff34d93e90dd7e53d71fd57edbfd3d12031ec4262f33370abf1fb1f5a2c7ec32"
+      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.2/webclaw-v0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "9d59b5c3eb62f4c94fbc6550bbd81b67d3bb98bcd03ad9ea6d8cf61cf8a14928"
     else
-      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.1/webclaw-v0.5.1-x86_64-apple-darwin.tar.gz"
-      sha256 "ce89e9783ccffe415a00d85eced34fef30966b57f8d6cea2dae52bf3735e75a8"
+      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.2/webclaw-v0.5.2-x86_64-apple-darwin.tar.gz"
+      sha256 "fd743723a6e3569c89940210126b4c72a6f68b185147887a1fda70d55aa34654"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.1/webclaw-v0.5.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "545f4542597856ce104235b3eb577352a420951bb5d9a84e7d53582f7c844831"
+      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.2/webclaw-v0.5.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3312cd6b5f0a49408a08eb73f3bf7368a967a96d72d67bea7147dfc0d7d728e8"
     else
-      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.1/webclaw-v0.5.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "86cbd0a8ba4c53ad98094b91b537f9a43d44c8a7d12a50715575a145b8e98bed"
+      url "https://github.com/0xMassi/webclaw/releases/download/v0.5.2/webclaw-v0.5.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "979014042d94389b87f77c9f511fa8ec97ab7aea0005ee6886806a4c841ec48b"
     end
   end
 
