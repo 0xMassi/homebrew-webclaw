@@ -7,20 +7,20 @@ class Webclaw < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/0xMassi/webclaw/releases/download/v0.5.6/webclaw-v0.5.6-aarch64-apple-darwin.tar.gz"
-      sha256 "bcd5e21e6c253cf1fe9278c44cb6ede52dad5152b3620e55a128d32e894007de"
+      sha256 "d22a6982a52bb58f8493224a88054657d135b756c5f911eab9f4624001eded6c"
     else
       url "https://github.com/0xMassi/webclaw/releases/download/v0.5.6/webclaw-v0.5.6-x86_64-apple-darwin.tar.gz"
-      sha256 "5a5567e3411d288dadf17f67c7ad890649a10255c7746c1095103f2693d1abfe"
+      sha256 "c94921266d18979d66b39f0537792f12d4b80270ced6905cd05ddccc475c0184"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/0xMassi/webclaw/releases/download/v0.5.6/webclaw-v0.5.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b9ce316f202beeefd20cb67e8800313d1b71bfc1c27cbbfb95523fca02def69c"
+      sha256 "9bb72fde8fefa8ef404e4957173caadcb2647d6550862968608415efa594a4c3"
     else
       url "https://github.com/0xMassi/webclaw/releases/download/v0.5.6/webclaw-v0.5.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a85021e46c4000c3293ca0fbc7cf29e35194114d172715b1f27a4813bf288b4a"
+      sha256 "e3ba03d69a7746bb50a6c1a5394e733bcd891eb9243a60286921d4a4020b8334"
     end
   end
 
